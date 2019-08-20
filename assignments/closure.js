@@ -5,6 +5,16 @@
 // The outer scope can be a parent function, or the top level of the script.
 
 
+function favouriteClub(clubName){
+  var club = "My favourite club is " + clubName;
+  var sayClub = function(){
+   console.log(club);
+  }
+  return sayClub;
+}
+var myClub = favouriteClub("Chelsea");
+myClub(); 
+
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
 
